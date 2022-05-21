@@ -1,9 +1,24 @@
-CREATE TABLE foo;
+CREATE TABLE foo(
+	id int,
+	name varchar(10)
+);
 
-CREATE TABLE bar;
+CREATE TABLE bar(
+	id int,
+	name varchar(10)
+);
 
-CREATE TABLE baz;
+CREATE TABLE baz(
+	id int,
+	name varchar(10)
+);
 
-CREATE TABLE foobar;
+CREATE TABLE foobar(
+	id int,
+	name varchar(10)
+);
 
-CREATE TABLE foobaz;
+CREATE TABLE foobaz(
+	id int,
+	name varchar(10)
+);
