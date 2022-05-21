@@ -31,3 +31,35 @@ ADD phone varchar(11);
 
 ALTER TABLE foobaz
 ADD phone varchar(11);
+
+/* Drop a column */
+ALTER TABLE foo
+DROP COLUMN email;
+
+ALTER TABLE bar
+DROP COLUMN email;
+
+ALTER TABLE baz
+DROP COLUMN email;
+
+ALTER TABLE foobar
+DROP COLUMN email;
+
+ALTER TABLE foobaz
+DROP COLUMN email;
+
+/* Again */
+ALTER TABLE foo
+DROP COLUMN phone;
+
+ALTER TABLE bar
+DROP COLUMN phone;
+
+ALTER TABLE baz
+DROP COLUMN phone;
+
+ALTER TABLE foobar
+DROP COLUMN phone;
+
+ALTER TABLE foobaz
+DROP COLUMN phone;
