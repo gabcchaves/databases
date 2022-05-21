@@ -1,0 +1,7 @@
+DROP DATABASE foobar;
+
+DROP DATABASE foobaz;
+
+DROP DATABASE foo;
+
+DROP DATABASE baz;
