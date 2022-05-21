@@ -1,0 +1,9 @@
+CREATE TABLE foo;
+
+CREATE TABLE bar;
+
+CREATE TABLE baz;
+
+CREATE TABLE foobar;
+
+CREATE TABLE foobaz;
