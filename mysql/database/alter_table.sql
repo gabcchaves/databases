@@ -63,3 +63,49 @@ DROP COLUMN phone;
 
 ALTER TABLE foobaz
 DROP COLUMN phone;
+
+/* Modify a column */
+-- It is possible to change column's data type
+-- Let's first add a column to all tables
+ALTER TABLE foo
+ADD email varchar(255);
+ALTER TABLE bar
+ADD email varchar(255);
+ALTER TABLE baz
+ADD email varchar(255);
+ALTER TABLE foobar
+ADD email varchar(255);
+ALTER TABLE foobaz
+ADD email varchar(255);
+
+-- Now, let's do it
+ALTER TABLE foo
+MODIFY COLUMN email varchar(100);
+
+ALTER TABLE bar
+MODIFY COLUMN email varchar(100);
+
+ALTER TABLE baz
+MODIFY COLUMN email varchar(100);
+
+ALTER TABLE foobar
+MODIFY COLUMN email varchar(100);
+
+ALTER TABLE foobaz
+MODIFY COLUMN email varchar(100);
+
+-- Again
+ALTER TABLE foo
+MODIFY COLUMN email varchar(255);
+
+ALTER TABLE bar
+MODIFY COLUMN email varchar(255);
+
+ALTER TABLE baz
+MODIFY COLUMN email varchar(255);
+
+ALTER TABLE foobar
+MODIFY COLUMN email varchar(255);
+
+ALTER TABLE foobaz
+MODIFY COLUMN email varchar(255);
